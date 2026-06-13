@@ -1,6 +1,6 @@
-import { useState, useEffect, useCallback, useRef } from "react";
+import { useState, useEffect } from "react";
 import { LineChart, Line, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, ReferenceLine } from "recharts";
-import { createClient } from "https://cdn.jsdelivr.net/npm/@supabase/supabase-js/+esm";
+import { createClient } from "@supabase/supabase-js";
 
 // ── SUPABASE CLIENT ───────────────────────────────────────────
 const SUPABASE_URL = "https://qoldanexmrpkqmxnyugs.supabase.co";
