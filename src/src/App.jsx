@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import App from './App.js'
 import { LineChart, Line, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, ReferenceLine } from "recharts";
 import { createClient } from "@supabase/supabase-js";
 
